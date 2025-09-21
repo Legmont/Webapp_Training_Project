@@ -9,5 +9,11 @@ wheels/
 # Virtual environments
 .venv
 
+# Normal environments with secret stuff :)
+.env
+
+# Images
+static/images/
+
 #
 *.lock
