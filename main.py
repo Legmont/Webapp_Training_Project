@@ -1,6 +1,6 @@
-def main():
-    print("Hello from webapp-training-project!")
+from app import create_app
 
-
-if __name__ == "__main__":
-    main()
+#run to start software
+if __name__ == '__main__':
+    app = create_app()
+    app.run(debug=True)
